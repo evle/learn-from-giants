@@ -16,3 +16,55 @@ const ALLOWED_TOKENS = new Set([
 ]);
 
 res.setHeader("Referrer-Policy", headerValue);
+
+
+/**
+ * x-powered-by
+ * reducing the number of bytes sent.
+ * 特征 404, lower-case header, etag
+ */
+res.removeHeader("X-Powered-By");
+
+/**
+ * Content Security Policy
+ */
+
+
+/**
+ * CSRF
+ */
+
+/**
+ * XSS
+ */
+
+
+/**
+ * SQL注入
+ */
+
+/**
+ * JSONP注入
+ */
+
+/**
+ * SSRF
+ */
+
+/**
+ * XXE
+ */
+
+/**
+ * SSTI
+ *
+ */
+
+/**
+ * 逻辑漏洞
+ */
+
+/**
+ * DDOS
+ */
+
